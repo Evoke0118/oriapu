@@ -54,10 +54,9 @@
 | --------                          | ------     | ----------- |
 | sauna_temperature                 | float      | null: false |
 | sauna_time                        | float      | null: false |
-| status_id                         | float      | null: false |
+| status_id                         | integer    | null: false |
 | water_bath_temperature            | float      | null: false |
 | water_bath_time                   | float      | null: false |
-| shipping_date_id                  | float      | null: false |
 | outside_air_bath_time             | float      | null: false |
 | user                              | references | null: false, foreign_key: true|
 

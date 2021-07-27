@@ -1,0 +1,2 @@
+class Totonou < ApplicationRecord
+end
